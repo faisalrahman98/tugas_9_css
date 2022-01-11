@@ -1,0 +1,26 @@
+body{
+    background-image: url(/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.contain{
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+}
+
+p{
+    font-weight: bold;
+}
+
+img{
+    float: right;
+    z-index: 1;
+}
